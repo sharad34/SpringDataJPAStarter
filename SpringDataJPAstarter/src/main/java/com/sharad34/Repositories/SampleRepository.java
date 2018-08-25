@@ -1,10 +1,10 @@
 //used for performing CRUD operations
 
-package software.repositories;
+package Repositories;
 
 import java.util.List;
 import org.springframework.data.jpa.repository.Modifying;
-import software.models.InventoryList;
+import models.InventoryList;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
